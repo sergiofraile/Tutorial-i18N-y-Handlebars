@@ -1,4 +1,4 @@
-var lang = 'es';
+var lang;
 
 function getLanguage(){
     if ( navigator && navigator.userAgent && (lang = navigator.userAgent.match(/android.*\W(\w\w)-(\w\w)\W/i))) {
